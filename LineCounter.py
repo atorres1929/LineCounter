@@ -38,9 +38,7 @@ class Counter():
     def getCount(self):
         return self.counter
     
-if __name__ == "__main__":
-    print("Note: The directory should be the source code folder to avoid confusion with other files")
-    
+if __name__ == "__main__":  
     directory = input("Enter the project directory you wish to count:")
     counter = Counter()
     print()
